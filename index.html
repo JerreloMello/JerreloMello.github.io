@@ -1,13 +1,93 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CHANGE ME</title>
+    <title>Marcelus's Marvelous Website </title>
+    <link rel="icon" type="image/x-icon" href="https://shop.stevelacys.com/cdn/shop/files/PIXEL_REVERSED_BROW-_Square_512px.png?v=1755198162&width=600"/>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <style type="text/tailwindcss"></style>
   </head>
 
-  <body>
+  <body class="bg-gray-50 text-gray-800 p-4 font-sans">
+
     <!-- All content goes here -->
-    <div id="all-contents">
+    <div id="all-contents" class="max-w-4xl mx-auto"> 
+
+      <!-- NAVIGATION BAR -->
+      <nav class="bg-[#9FB8AD] p-4 rounded-lg mb-4 shadow-md">
+
+        <div class="flex justify-between items-center">
+
+          <h1 class="text-white text-2xl font-bold">Jorge The Amazing</h1>
+          <ul>
+
+            <li>
+              <a href="index.html" class="text-white hover:text-blue-200 px-3 rounded">Home</a>
+            </li>
+
+            <li>
+              <a href="portfolio.html" class="text-white hover: text-blue-200 px-3 py-2 rounded">Portfolio</a>
+            </li>
+
+         </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- MAIN - contains the SIDEBAR picture & the CONTENT section  -->
+      <main class="bg-[#475841] rounded-lg shadow-lg p-6">
+
+
+        <div class="flex flex-col md:flex-row gap-6">
+
+        <!-- SIDEBAR with image -->
+         <div class="md:w-1/3">
+          <img
+          class="w-full nax-w-xs rounded-lg shadow-md mx-auto object cover"
+          src="https://live-production.wcms.abc-cdn.net.au/df08b2a6760c0979f6a8df4d1a1a8cf3?impolicy=wcms_crop_resize&cropH=1125&cropW=2000&xPos=0&yPos=0&width=862&height=485"
+          />
+          <img 
+          class="w-full nax-w-xs rounded-lg shadow-md mx-auto object cover"
+          src= "https://www.rollingstone.com/wp-content/uploads/2025/03/malcolm-todd-album-review.jpg?w=1581&h=1054&crop=1"
+          alt="Profile picture"
+          />
+          <img 
+          class="w-full nax-w-xs rounded-lg shadow-md mx-auto object cover"
+          src="https://www.hollywoodreporter.com/wp-content/uploads/2024/03/LV_Rodeo_Photocall-Courtesy-BFA-10-H-2024.jpg?w=1296&h=730&crop=1"
+          alt="Profile picture"
+          />
+         </div>  <!-- end div SIDEBAR -->
+
+
+         <!--CONTENT section -->
+         <div class="md:w-2/3">
+
+            <h2 class="  text-3xl font-bold text-[#E6E8E6] mb-2">Jerrel Burks (AKA) The G.O.A.T</h2>
+
+            <p class="text-lg font-bold text-white mb-6">Smartest at Bossier High School...basically in the entire district</p>
+          
+          
+            <!-- Interests section -->
+            <div class="border-2 border-gray-300 rounded-lg p-4">
+              <h3 class="text-xl font-semibold mb-3 text-[#E6E8E6] ">Interests</h3>
+              <ul class="space-y-2">
+              <li class="bg-blue-100 px-3 py-2 rounded text-blue-800">Steve Lacy</li>
+              <li class="bg-pink-100 px-3 py-2 rounded text-pink-800">Tyler, The Creator</li>
+              <li class="bg-purple-100 px-3 py-2 rounded text-purple-800">Malcolm Todd</li>
+              <li class="bg-green-100 px-3 py-2 rounded text-green-800">Music Making</li>
+              <li class="bg-red-100 px-3 py-2 rounded text-red-800">3FS</li>
+              <li class="bg-orange-100 px-3 py-2 rounded text-orange-800">Video Making</li>
+              <li class="bg-yellow-100 px-3 py-2 rounded text-yellow-800">CoryxKenshin</li>
+              </ul>
+            </div> 
+            <!--  end of division for INTERESTS -->
+
+         </div>  <!-- end of division for CONTENT section -->
       
-    </div>
+      </main>
+
+    </div>  
+    
   </body>
+
 </html>
