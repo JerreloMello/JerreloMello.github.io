@@ -49,7 +49,7 @@ color: #fff;
 
 /* main container area beneath menu */
 main {
-background:rgb(219, 245, 242);   
+background:#475841;   
 display: flex;
 margin-top:20px;
 }
@@ -84,6 +84,11 @@ margin: 0px;
 #portfolio {
     list-style-type: none;
     padding-left: 0;
+}
+
+#portfolio-heading
+{
+    margin-bottom: 10px;
 }
 
 #portfolio li {
